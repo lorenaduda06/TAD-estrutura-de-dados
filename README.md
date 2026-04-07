@@ -1,7 +1,5 @@
 <h1>Tipo Abstrato de Dados (TAD) - Gerenciamento dinâmico em vetor</h1>
 
-<>
-
 <p>O sistema implementa um TAD para gerenciar registros de pessoas, utilizando alocação dinâmica de memória (heap) para criar os registros e os organiza por meio de um vetor de ponteiros.</p>
 
 <h2>Descrição do Projeto</h2>
@@ -15,27 +13,17 @@
 </ul>
 
 <h2>Funcionalidades</h2>
-<ol>
-    <li style="display: flex; flex-direction: column;">
-        <strong>Inserção:</strong>
-        <span>A criação da struct Pessoa é feita de forma dinâmica (alocada na heap), e logo em seguida adicionada ao vetor</span>
-    </li>
+<h3>Inserção:</h3>
+<p>A criação da struct Pessoa é feita de forma dinâmica (alocada na heap), e logo em seguida adicionada ao vetor</p>
 
-    <li style="display: flex; flex-direction: column;">
-        <strong>Listagem:</strong>
-        <span>O vetor é percorrido e exibe os dados de todos os elementos do vetor.</span>
-    </li>
+<h3>Listagem:</h3>
+<p>O vetor é percorrido e exibe os dados de todos os elementos do vetor.</p>
 
-    <li style="display: flex; flex-direction: column;">
-        <strong>Edição:</strong>
-        <span>O elemento do vetor é identificado pelo índice, e a partir dele, seus atributos são atualizados.</span>
-    </li>
+<h3>Edição:</h3>
+<p>O elemento do vetor é identificado pelo índice, e a partir dele, seus atributos são atualizados.</p>
 
-    <li style="display: flex; flex-direction: column;">
-        </strong>Remoção:</strong>
-        <span>O elemento do vetor, localizado através do índice, é removido. Logo, o método free() libera a memória correspondente a ele. Em seguida o vetor é reordenado para organizar os elementos que restaram.</span>
-    </li>
-</ol>
+</h3>Remoção:</h3>
+<p>O elemento do vetor, localizado através do índice, é removido. Logo, o método free() libera a memória correspondente a ele. Em seguida o vetor é reordenado para organizar os elementos que restaram.</p>
 
 <h2>Estrutura do arquivo</h2>
 <h3>Pessoa.h</h3>
