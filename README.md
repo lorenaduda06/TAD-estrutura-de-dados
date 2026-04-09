@@ -31,6 +31,19 @@
 <h3>Pessoa.c</h3>
 <p>Arquivo de implementação. Contém a implementação da lógica das funções definidas na interface e a função main.</p>
 
+<h2>💡 Compilação e execução</h2>
+<h3>AV1_TAD_LorenaEduarda</h3>
+<p>gcc Pessoa.c -o Pessoa.exe</p>
+<p>.\Pessoa.exe</p>
+
+<h3>AV1_TAD_Giovanna</h3>
+<p>gcc main.c Pessoa.c -o main.exe</p>
+<p>.\main.exe</p>
+
+<h3>AV1_TAD_Caelayne</h3>
+<p>gcc gerenciador_pessoas.c -o gerenciador_pessoas.exe</p>
+<p>.\gerenciador_pessoas.exe</p>
+
 <h2>🔖 Desenvolvido por:</h2>
 <p>Caelayne Aparecida Ribeiro Soares</p>
 <p>Giovanna Furlan Fernandes</p>
